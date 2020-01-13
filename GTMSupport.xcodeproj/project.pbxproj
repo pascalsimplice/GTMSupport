@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C1D7E44223CCC60200D3B91B /* GTMSupport_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D7E44023CCC60200D3B91B /* GTMSupport_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1D7E44723CCC82300D3B91B /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D7E44623CCC7D700D3B91B /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1D7E44823CCCBDF00D3B91B /* libPods-GTMSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 578680B4E539AE038F372B30 /* libPods-GTMSupport.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D7E44823CCCBDF00D3B91B /* libPods-GTMSupport.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +112,7 @@
 				C1D7E43A23CCC60200D3B91B /* Sources */,
 				C1D7E43B23CCC60200D3B91B /* Frameworks */,
 				C1D7E43C23CCC60200D3B91B /* Resources */,
+				C1D7E44A23CCCC0600D3B91B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -161,6 +164,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C1D7E44A23CCCC0600D3B91B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"\"${SRCROOT}/Pods/Target Support Files/Pods-CocoaPodsSupport/Pods-CocoaPodsSupport-resources.sh\"",
+				"${PODS_ROOT}/GoogleTagManager/Frameworks/frameworks/GoogleTagManager.framework/Resources/TagManagerResources.bundle",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TagManagerResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C1D7E43A23CCC60200D3B91B /* Sources */ = {
