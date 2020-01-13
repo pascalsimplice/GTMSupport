@@ -3,24 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E809894C8EFEC8FE56ED505 /* libPods-GTMSupport_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 026D4DED1D5846AF91351A68 /* libPods-GTMSupport_iOS.a */; };
 		C1D7E44223CCC60200D3B91B /* GTMSupport_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D7E44023CCC60200D3B91B /* GTMSupport_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1D7E44723CCC82300D3B91B /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D7E44623CCC7D700D3B91B /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1D7E44823CCCBDF00D3B91B /* libPods-GTMSupport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 578680B4E539AE038F372B30 /* libPods-GTMSupport.a */; };
+		C1D7E45923CCD4FE00D3B91B /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D7E45823CCD4FE00D3B91B /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		026D4DED1D5846AF91351A68 /* libPods-GTMSupport_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTMSupport_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B156011F56D450727D77E0C /* Pods-GTMSupport_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_iOS.release.xcconfig"; path = "Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		3050A2D9944A235BCB203900 /* Pods-GTMSupport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport.debug.xcconfig"; path = "Target Support Files/Pods-GTMSupport/Pods-GTMSupport.debug.xcconfig"; sourceTree = "<group>"; };
 		47E003D2A6A94004C6EAD3C3 /* Pods-GTMSupport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport.release.xcconfig"; path = "Target Support Files/Pods-GTMSupport/Pods-GTMSupport.release.xcconfig"; sourceTree = "<group>"; };
-		578680B4E539AE038F372B30 /* libPods-GTMSupport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTMSupport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D7E42523CCC11800D3B91B /* GTMSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTMSupport.swift; sourceTree = "<group>"; };
 		C1D7E43E23CCC60200D3B91B /* GTMSupport_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMSupport_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D7E44023CCC60200D3B91B /* GTMSupport_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMSupport_iOS.h; sourceTree = "<group>"; };
 		C1D7E44123CCC60200D3B91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1D7E44623CCC7D700D3B91B /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
+		C1D7E45823CCD4FE00D3B91B /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		ECE055BAEFF6C0F4944FF0D9 /* Pods-GTMSupport_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_iOS.debug.xcconfig"; path = "Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1D7E44823CCCBDF00D3B91B /* libPods-GTMSupport.a in Frameworks */,
+				9E809894C8EFEC8FE56ED505 /* libPods-GTMSupport_iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,7 +42,7 @@
 		146AC5D0021B22A09B8FE0AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				578680B4E539AE038F372B30 /* libPods-GTMSupport.a */,
+				026D4DED1D5846AF91351A68 /* libPods-GTMSupport_iOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -48,6 +52,8 @@
 			children = (
 				3050A2D9944A235BCB203900 /* Pods-GTMSupport.debug.xcconfig */,
 				47E003D2A6A94004C6EAD3C3 /* Pods-GTMSupport.release.xcconfig */,
+				ECE055BAEFF6C0F4944FF0D9 /* Pods-GTMSupport_iOS.debug.xcconfig */,
+				1B156011F56D450727D77E0C /* Pods-GTMSupport_iOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -85,6 +91,7 @@
 				C1D7E44023CCC60200D3B91B /* GTMSupport_iOS.h */,
 				C1D7E44123CCC60200D3B91B /* Info.plist */,
 				C1D7E44623CCC7D700D3B91B /* PublicHeader.h */,
+				C1D7E45823CCD4FE00D3B91B /* TestView.swift */,
 			);
 			path = GTMSupport_iOS;
 			sourceTree = "<group>";
@@ -108,11 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1D7E44523CCC60200D3B91B /* Build configuration list for PBXNativeTarget "GTMSupport_iOS" */;
 			buildPhases = (
+				C187C73F6993D56B729B2CCA /* [CP] Check Pods Manifest.lock */,
 				C1D7E43923CCC60200D3B91B /* Headers */,
 				C1D7E43A23CCC60200D3B91B /* Sources */,
 				C1D7E43B23CCC60200D3B91B /* Frameworks */,
 				C1D7E43C23CCC60200D3B91B /* Resources */,
-				C1D7E44A23CCCC0600D3B91B /* ShellScript */,
+				BD14A9D92FD79AA6D5BFEC05 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +143,7 @@
 				TargetAttributes = {
 					C1D7E43D23CCC60200D3B91B = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -166,7 +175,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C1D7E44A23CCCC0600D3B91B /* ShellScript */ = {
+		BD14A9D92FD79AA6D5BFEC05 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C187C73F6993D56B729B2CCA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -174,17 +200,19 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"\"${SRCROOT}/Pods/Target Support Files/Pods-CocoaPodsSupport/Pods-CocoaPodsSupport-resources.sh\"",
-				"${PODS_ROOT}/GoogleTagManager/Frameworks/frameworks/GoogleTagManager.framework/Resources/TagManagerResources.bundle",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TagManagerResources.bundle",
+				"$(DERIVED_FILE_DIR)/Pods-GTMSupport_iOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -193,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D7E45923CCD4FE00D3B91B /* TestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +346,9 @@
 		};
 		C1D7E44323CCC60200D3B91B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE055BAEFF6C0F4944FF0D9 /* Pods-GTMSupport_iOS.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -326,6 +357,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleTagManager/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleUtilities/Frameworks/frameworks\"",
+				);
 				INFOPLIST_FILE = GTMSupport_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,6 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.massive.GTMSupport-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -345,7 +386,9 @@
 		};
 		C1D7E44423CCC60200D3B91B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B156011F56D450727D77E0C /* Pods-GTMSupport_iOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -354,6 +397,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleTagManager/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleUtilities/Frameworks/frameworks\"",
+				);
 				INFOPLIST_FILE = GTMSupport_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
