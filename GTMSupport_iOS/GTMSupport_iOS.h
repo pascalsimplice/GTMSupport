@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char GTMSupport_iOSVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GTMSupport_iOS/PublicHeader.h>
 
-
+#import <GTMSupport_iOS/PublicHeader.h>
