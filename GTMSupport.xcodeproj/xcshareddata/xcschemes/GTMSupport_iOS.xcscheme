@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C1D7E42123CCC11800D3B91B"
-               BuildableName = "libGTMSupport.a"
-               BlueprintName = "GTMSupport"
+               BlueprintIdentifier = "C1D7E43D23CCC60200D3B91B"
+               BuildableName = "GTMSupport_iOS.framework"
+               BlueprintName = "GTMSupport_iOS"
                ReferencedContainer = "container:GTMSupport.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C1D7E42123CCC11800D3B91B"
-            BuildableName = "libGTMSupport.a"
-            BlueprintName = "GTMSupport"
+            BlueprintIdentifier = "C1D7E43D23CCC60200D3B91B"
+            BuildableName = "GTMSupport_iOS.framework"
+            BlueprintName = "GTMSupport_iOS"
             ReferencedContainer = "container:GTMSupport.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C1D7E42123CCC11800D3B91B"
-            BuildableName = "libGTMSupport.a"
-            BlueprintName = "GTMSupport"
+            BlueprintIdentifier = "C1D7E43D23CCC60200D3B91B"
+            BuildableName = "GTMSupport_iOS.framework"
+            BlueprintName = "GTMSupport_iOS"
             ReferencedContainer = "container:GTMSupport.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
