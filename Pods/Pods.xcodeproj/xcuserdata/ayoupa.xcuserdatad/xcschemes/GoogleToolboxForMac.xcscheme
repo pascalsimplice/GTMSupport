@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D47C581D39D227080F83B16A22A56664"
-               BuildableName = "GoogleToolboxForMac.framework"
+               BuildableName = "libGoogleToolboxForMac.a"
                BlueprintName = "GoogleToolboxForMac"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
