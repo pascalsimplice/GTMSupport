@@ -116,9 +116,9 @@
 			buildConfigurationList = C1D7E44523CCC60200D3B91B /* Build configuration list for PBXNativeTarget "GTMSupport_iOS" */;
 			buildPhases = (
 				C187C73F6993D56B729B2CCA /* [CP] Check Pods Manifest.lock */,
-				C1D7E43923CCC60200D3B91B /* Headers */,
 				C1D7E43A23CCC60200D3B91B /* Sources */,
 				C1D7E43B23CCC60200D3B91B /* Frameworks */,
+				C1D7E43923CCC60200D3B91B /* Headers */,
 				C1D7E43C23CCC60200D3B91B /* Resources */,
 				BD14A9D92FD79AA6D5BFEC05 /* [CP] Copy Pods Resources */,
 			);
@@ -368,7 +368,7 @@
 				);
 				INFOPLIST_FILE = GTMSupport_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -409,7 +409,7 @@
 				);
 				INFOPLIST_FILE = GTMSupport_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
