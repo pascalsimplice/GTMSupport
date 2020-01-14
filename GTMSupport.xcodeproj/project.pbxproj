@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E809894C8EFEC8FE56ED505 /* libPods-GTMSupport_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 026D4DED1D5846AF91351A68 /* libPods-GTMSupport_iOS.a */; };
+		0D08913669B1C4135DDC44D0 /* Pods_GTMSupport_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D999B87AE76B73835F22CE /* Pods_GTMSupport_iOS.framework */; };
 		C1D7E44223CCC60200D3B91B /* GTMSupport_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D7E44023CCC60200D3B91B /* GTMSupport_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1D7E44723CCC82300D3B91B /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D7E44623CCC7D700D3B91B /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1D7E45923CCD4FE00D3B91B /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D7E45823CCD4FE00D3B91B /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		026D4DED1D5846AF91351A68 /* libPods-GTMSupport_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTMSupport_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D999B87AE76B73835F22CE /* Pods_GTMSupport_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTMSupport_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B156011F56D450727D77E0C /* Pods-GTMSupport_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_iOS.release.xcconfig"; path = "Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		C1D7E42523CCC11800D3B91B /* GTMSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTMSupport.swift; sourceTree = "<group>"; };
 		C1D7E43E23CCC60200D3B91B /* GTMSupport_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMSupport_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,7 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E809894C8EFEC8FE56ED505 /* libPods-GTMSupport_iOS.a in Frameworks */,
+				0D08913669B1C4135DDC44D0 /* Pods_GTMSupport_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,7 +40,7 @@
 		146AC5D0021B22A09B8FE0AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				026D4DED1D5846AF91351A68 /* libPods-GTMSupport_iOS.a */,
+				02D999B87AE76B73835F22CE /* Pods_GTMSupport_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
