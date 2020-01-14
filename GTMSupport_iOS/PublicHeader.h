@@ -10,5 +10,5 @@
 #define PublicHeader_h
 
 #import <GoogleTagManager/GoogleTagManager.h>
-
+#import <FirebaseAnalytics/FirebaseAnalytics.h>
 #endif /* PublicHeader_h */
