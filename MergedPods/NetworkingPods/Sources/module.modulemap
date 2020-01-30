@@ -1,0 +1,30 @@
+framework module NetworkingPods {
+
+	explicit module AFNetworking {
+		header "UIButton+AFNetworking.h"
+		header "UIImageView+AFNetworking.h"
+		header "AFImageDownloader.h"
+		header "AFAutoPurgingImageCache.h"
+		header "UIWebView+AFNetworking.h"
+		header "UIActivityIndicatorView+AFNetworking.h"
+		header "UIImage+AFNetworking.h"
+		header "UIProgressView+AFNetworking.h"
+		header "UIKit+AFNetworking.h"
+		header "UIRefreshControl+AFNetworking.h"
+		header "AFNetworkActivityIndicatorManager.h"
+		header "AFSecurityPolicy.h"
+		header "AFNetworkReachabilityManager.h"
+		header "AFURLSessionManager.h"
+		header "AFURLRequestSerialization.h"
+		header "AFURLResponseSerialization.h"
+		header "AFNetworking.h"
+		header "AFCompatibilityMacros.h"
+		header "AFHTTPSessionManager.h"
+	}
+
+	explicit module CocoaAsyncSocket {
+		header "GCDAsyncUdpSocket.h"
+		header "GCDAsyncSocket.h"
+	}
+
+}
