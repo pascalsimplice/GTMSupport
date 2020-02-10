@@ -571,10 +571,10 @@
 		D2AC910226061193BA8598A79C7DB773 /* FirebasePerformance.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FirebasePerformance.xcconfig; sourceTree = "<group>"; };
 		D2D01E1E5B084BB4001C3ABD7370A2FD /* FirebasePerformance.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebasePerformance.framework; path = Frameworks/FirebasePerformance.framework; sourceTree = "<group>"; };
 		D320AFE9682FC26500588CC739E638C3 /* GPBCodedOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream.h; path = objectivec/GPBCodedOutputStream.h; sourceTree = "<group>"; };
+		D4BBA8137E1D316202BC19C6 /* MergeFile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = MergeFile; path = ../MergeFile; sourceTree = "<group>"; };
 		D52D57FD6BFF371A5CAB82276612C8CF /* Pods-GTMSupport_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMSupport_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D603622EDBA578011BA3840786E4E3BB /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		E16A6ED23F896EB49D2AB6F38049A6A9 /* Api.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Api.pbobjc.h; path = objectivec/google/protobuf/Api.pbobjc.h; sourceTree = "<group>"; };
-		E39FB8486CD1BF2482D758BD /* MergeFile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = MergeFile; path = ../MergeFile; sourceTree = "<group>"; };
 		E44BAD9859397B9D381620BB3A0C7C21 /* Type.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Type.pbobjc.m; path = objectivec/google/protobuf/Type.pbobjc.m; sourceTree = "<group>"; };
 		E4C3271420F865238D5AB6881125D631 /* GPBWireFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBWireFormat.m; path = objectivec/GPBWireFormat.m; sourceTree = "<group>"; };
 		E5AD46A8FC97BCF5E55A2FCACDF06D85 /* GTMSessionFetcherLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherLogging.h; path = Source/GTMSessionFetcherLogging.h; sourceTree = "<group>"; };
@@ -1114,7 +1114,7 @@
 				B5686692878967C9EA7A6B6D81464B64 /* Pods */,
 				F1C2C31D1CAC882AA72EB082F4D112BD /* Products */,
 				8B675BAC192F19B9397B1BAB236483ED /* Targets Support Files */,
-				E39FB8486CD1BF2482D758BD /* MergeFile */,
+				D4BBA8137E1D316202BC19C6 /* MergeFile */,
 			);
 			sourceTree = "<group>";
 		};
