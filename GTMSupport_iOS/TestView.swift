@@ -9,7 +9,7 @@
 import Foundation
 import GoogleTagManager
 import FirebaseAnalytics
-
+import Firebase
 class TestView: UIView {
     
     /*
@@ -19,5 +19,9 @@ class TestView: UIView {
      // Drawing code
      }
      */
+    func test() {
+        let test = RemoteConfigSettings(developerModeEnabled: true)
+        test.minimumFetchInterval
+    }
     
 }
