@@ -5,6 +5,8 @@ target 'GTMSupport_iOS' do
   platform :ios, '9.1'
   pod 'Firebase/Performance'
   pod 'Firebase/RemoteConfig'
+  pod 'Firebase/DynamicLinks'
+  pod 'Firebase/Analytics'
   pod 'GoogleTagManager', '~> 6.0'
   
 end
