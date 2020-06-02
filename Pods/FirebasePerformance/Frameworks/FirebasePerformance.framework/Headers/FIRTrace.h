@@ -28,25 +28,37 @@ NS_SWIFT_NAME(Trace)
  */
 - (void)stop;
 
-/**
- * Increments the counter for the provided counter name by 1. If it is a new counter name, the
- * counter value will be initialized to 1. Does nothing if the trace has not been started or has
- * already been stopped.
- *
- * @param counterName The name of the counter to increment.
- */
-- (void)incrementCounterNamed:(nonnull NSString *)counterName
-    NS_SWIFT_NAME(incrementCounter(named:));
+#pragma mark - Metrics API
 
 /**
- * Increments the counter for the provided counter name with the provided value. If it is a new
- * counter name, the counter value will be initialized to the value. Does nothing if the trace has
- * not been started or has already been stopped.
+ * Atomically increments the metric for the provided metric name with the provided value. If it is a
+ * new metric name, the metric value will be initialized to the value. Does nothing if the trace
+ * has not been started or has already been stopped.
  *
- * @param counterName The name of the counter to increment.
- * @param incrementValue The value the counter would be incremented with.
+ * @param metricName The name of the metric to increment.
+ * @param incrementValue The value to increment the metric by.
  */
-- (void)incrementCounterNamed:(nonnull NSString *)counterName by:(NSInteger)incrementValue
-    NS_SWIFT_NAME(incrementCounter(named:by:));
+- (void)incrementMetric:(nonnull NSString *)metricName byInt:(int64_t)incrementValue
+    NS_SWIFT_NAME(incrementMetric(_:by:));
+
+/**
+ * Gets the value of the metric for the provided metric name. If the metric doesn't exist, a 0 is
+ * returned.
+ *
+ * @param metricName The name of metric whose value to get.
+ * @return The value of the given metric or 0 if it hasn't yet been set.
+ */
+- (int64_t)valueForIntMetric:(nonnull NSString *)metricName
+    NS_SWIFT_NAME(valueForMetric(_:));
+
+/**
+ * Sets the value of the metric for the provided metric name to the provided value. Does nothing if
+ * the trace has not been started or has already been stopped.
+ *
+ * @param metricName The name of the metric to set.
+ * @param value The value to set the metric to.
+ */
+- (void)setIntValue:(int64_t)value forMetric:(nonnull NSString *)metricName
+    NS_SWIFT_NAME(setValue(_:forMetric:));
 
 @end
