@@ -6,6 +6,9 @@ PODS:
     - FirebaseAnalytics (= 6.5.1)
   - Firebase/CoreOnly (6.25.0):
     - FirebaseCore (= 6.7.1)
+  - Firebase/Crashlytics (6.25.0):
+    - Firebase/CoreOnly
+    - FirebaseCrashlytics (~> 4.1.0)
   - Firebase/DynamicLinks (6.25.0):
     - Firebase/CoreOnly
     - FirebaseDynamicLinks (~> 4.0.8)
@@ -41,6 +44,14 @@ PODS:
     - GoogleUtilities/Logger (~> 6.5)
     - nanopb (~> 1.30905.0)
   - FirebaseCoreDiagnosticsInterop (1.2.0)
+  - FirebaseCrashlytics (4.1.1):
+    - FirebaseAnalyticsInterop (~> 1.2)
+    - FirebaseCore (~> 6.6)
+    - FirebaseInstallations (~> 1.1)
+    - GoogleDataTransport (~> 6.1)
+    - GoogleDataTransportCCTSupport (~> 3.1)
+    - nanopb (~> 1.30905.0)
+    - PromisesObjC (~> 1.2)
   - FirebaseDynamicLinks (4.0.8):
     - FirebaseAnalyticsInterop (~> 1.3)
     - FirebaseCore (~> 6.2)
@@ -122,6 +133,7 @@ PODS:
 
 DEPENDENCIES:
   - Firebase/Analytics
+  - Firebase/Crashlytics
   - Firebase/DynamicLinks
   - Firebase/Performance
   - Firebase/RemoteConfig
@@ -136,6 +148,7 @@ SPEC REPOS:
     - FirebaseCore
     - FirebaseCoreDiagnostics
     - FirebaseCoreDiagnosticsInterop
+    - FirebaseCrashlytics
     - FirebaseDynamicLinks
     - FirebaseInstallations
     - FirebasePerformance
@@ -162,6 +175,7 @@ SPEC CHECKSUMS:
   FirebaseCore: 6023faeada5afa95a349fccafb40900e32e9ac42
   FirebaseCoreDiagnostics: 4a773a47bd83bbd5a9b1ccf1ce7caa8b2d535e67
   FirebaseCoreDiagnosticsInterop: 296e2c5f5314500a850ad0b83e9e7c10b011a850
+  FirebaseCrashlytics: a87cce5746d3335995bd18b1b60d073cd05a6920
   FirebaseDynamicLinks: 417dc6dbb6013233c77558290d73296f429656a6
   FirebaseInstallations: 2119fb3e46b0a88bfdbf12562f855ee3252462fa
   FirebasePerformance: 5652d2004001e886da6dca04f478c695f87c4702
@@ -180,6 +194,6 @@ SPEC CHECKSUMS:
   PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
   Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
 
-PODFILE CHECKSUM: 12f31b925e4b3cc65d5cb7ba11eba94fb4d3908c
+PODFILE CHECKSUM: 515fd41d62e0a66d6026e9af3630f3cc8c940664
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3
