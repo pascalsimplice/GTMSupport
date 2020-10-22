@@ -10,6 +10,7 @@
 		9304EB45B68B2DEC5C0F3699 /* libPods-GTMSupport_tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8315B967EFCE38B2876AF /* libPods-GTMSupport_tvOS.a */; };
 		BBBF20F42BF4704650FDF7E5 /* libPods-GTMSupport_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F47B9F3C8159E14668D8FD6 /* libPods-GTMSupport_iOS.a */; };
 		C1A01E392541941C00E8C429 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A01E38254193F400E8C429 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1A01E3D254197E700E8C429 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A01E3C254197E700E8C429 /* TestView.swift */; };
 		C1B2496225403883008D1256 /* GTMSupport_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B2496025403883008D1256 /* GTMSupport_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1D7E44223CCC60200D3B91B /* GTMSupport_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D7E44023CCC60200D3B91B /* GTMSupport_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1D7E44723CCC82300D3B91B /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D7E44623CCC7D700D3B91B /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -22,6 +23,7 @@
 		6106192C5860CD6AF2FE43CD /* Pods-GTMSupport_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_tvOS.release.xcconfig"; path = "Target Support Files/Pods-GTMSupport_tvOS/Pods-GTMSupport_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		63F8315B967EFCE38B2876AF /* libPods-GTMSupport_tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTMSupport_tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A01E38254193F400E8C429 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
+		C1A01E3C254197E700E8C429 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		C1B2495E25403883008D1256 /* GTMSupport_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMSupport_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B2496025403883008D1256 /* GTMSupport_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMSupport_tvOS.h; sourceTree = "<group>"; };
 		C1B2496125403883008D1256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				C1B2496025403883008D1256 /* GTMSupport_tvOS.h */,
 				C1B2496125403883008D1256 /* Info.plist */,
 				C1A01E38254193F400E8C429 /* PublicHeader.h */,
+				C1A01E3C254197E700E8C429 /* TestView.swift */,
 			);
 			path = GTMSupport_tvOS;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				TargetAttributes = {
 					C1B2495D25403883008D1256 = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1170;
 					};
 					C1D7E43D23CCC60200D3B91B = {
 						CreatedOnToolsVersion = 10.3;
@@ -329,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A01E3D254197E700E8C429 /* TestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6CE3BFEEC5AE1C305803E7C /* Pods-GTMSupport_tvOS.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -366,6 +372,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 12.0;
@@ -378,6 +385,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6106192C5860CD6AF2FE43CD /* Pods-GTMSupport_tvOS.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
