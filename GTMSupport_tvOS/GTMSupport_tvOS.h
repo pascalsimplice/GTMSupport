@@ -15,3 +15,5 @@ FOUNDATION_EXPORT double GTMSupport_tvOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char GTMSupport_tvOSVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GTMSupport_tvOS/PublicHeader.h>
+
+#import <GTMSupport_tvOS/PublicHeader.h>

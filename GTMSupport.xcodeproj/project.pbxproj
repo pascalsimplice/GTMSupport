@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9304EB45B68B2DEC5C0F3699 /* libPods-GTMSupport_tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8315B967EFCE38B2876AF /* libPods-GTMSupport_tvOS.a */; };
 		BBBF20F42BF4704650FDF7E5 /* libPods-GTMSupport_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F47B9F3C8159E14668D8FD6 /* libPods-GTMSupport_iOS.a */; };
+		C1A01E392541941C00E8C429 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A01E38254193F400E8C429 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1B2496225403883008D1256 /* GTMSupport_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B2496025403883008D1256 /* GTMSupport_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1D7E44223CCC60200D3B91B /* GTMSupport_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D7E44023CCC60200D3B91B /* GTMSupport_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1D7E44723CCC82300D3B91B /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D7E44623CCC7D700D3B91B /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,6 +21,7 @@
 		2F47B9F3C8159E14668D8FD6 /* libPods-GTMSupport_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTMSupport_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6106192C5860CD6AF2FE43CD /* Pods-GTMSupport_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_tvOS.release.xcconfig"; path = "Target Support Files/Pods-GTMSupport_tvOS/Pods-GTMSupport_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		63F8315B967EFCE38B2876AF /* libPods-GTMSupport_tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTMSupport_tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A01E38254193F400E8C429 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
 		C1B2495E25403883008D1256 /* GTMSupport_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMSupport_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B2496025403883008D1256 /* GTMSupport_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMSupport_tvOS.h; sourceTree = "<group>"; };
 		C1B2496125403883008D1256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			children = (
 				C1B2496025403883008D1256 /* GTMSupport_tvOS.h */,
 				C1B2496125403883008D1256 /* Info.plist */,
+				C1A01E38254193F400E8C429 /* PublicHeader.h */,
 			);
 			path = GTMSupport_tvOS;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A01E392541941C00E8C429 /* PublicHeader.h in Headers */,
 				C1B2496225403883008D1256 /* GTMSupport_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

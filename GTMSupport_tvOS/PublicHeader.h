@@ -1,0 +1,13 @@
+//
+//  PublicHeader.h
+//  GTMSupport
+//
+//  Created by Pascal Simplice on 22/10/2020.
+//  Copyright © 2020 Pascal Simplice. All rights reserved.
+//
+
+#ifndef PublicHeader_h
+#define PublicHeader_h
+
+
+#endif /* PublicHeader_h */
