@@ -1,4 +1,6 @@
 PODS:
+  - Firebase (7.1.0):
+    - Firebase/Core (= 7.1.0)
   - Firebase/Analytics (7.1.0):
     - Firebase/Core
   - Firebase/Core (7.1.0):
@@ -120,11 +122,13 @@ PODS:
   - Protobuf (3.13.0)
 
 DEPENDENCIES:
+  - Firebase
   - Firebase/Analytics
   - Firebase/Crashlytics
   - Firebase/DynamicLinks
   - Firebase/Performance
   - Firebase/RemoteConfig
+  - FirebaseDynamicLinks (from `https://github.com/pascalsimplice/firebase-ios-sdk.git`, tag `wwe.0.1`)
   - GoogleTagManager
 
 SPEC REPOS:
@@ -135,7 +139,6 @@ SPEC REPOS:
     - FirebaseCore
     - FirebaseCoreDiagnostics
     - FirebaseCrashlytics
-    - FirebaseDynamicLinks
     - FirebaseInstallations
     - FirebasePerformance
     - FirebaseRemoteConfig
@@ -152,6 +155,16 @@ SPEC REPOS:
     - PromisesObjC
     - Protobuf
 
+EXTERNAL SOURCES:
+  FirebaseDynamicLinks:
+    :git: https://github.com/pascalsimplice/firebase-ios-sdk.git
+    :tag: wwe.0.1
+
+CHECKOUT OPTIONS:
+  FirebaseDynamicLinks:
+    :git: https://github.com/pascalsimplice/firebase-ios-sdk.git
+    :tag: wwe.0.1
+
 SPEC CHECKSUMS:
   Firebase: 78e8dd2e39d653de6270432ad84fe8b59f7bf4e8
   FirebaseABTesting: aaea04ea67858a4a9dce0d22ef645477dff50146
@@ -159,7 +172,7 @@ SPEC CHECKSUMS:
   FirebaseCore: 20046127eef0fcb8fa25df7fc12f7b97d4e48611
   FirebaseCoreDiagnostics: 872cdb9b749b23346dddd5c1014d1babd2257de3
   FirebaseCrashlytics: c722e4ca283272eb90eb5bc245fdc6588e2f22c2
-  FirebaseDynamicLinks: dadf4564851de0ecdad2dab7fc2d1c401dcaa406
+  FirebaseDynamicLinks: 0cd60fcbaefe4009d93c4018c18da55ddef2249e
   FirebaseInstallations: 3de38553e86171b5f81d83cdeef63473d37bfdb0
   FirebasePerformance: 70f4ea16062512a57a084ed4ae0925b6af1e3884
   FirebaseRemoteConfig: 04cd72851dad51780aa66f05b01a7dd0b85cdbf5
@@ -176,6 +189,6 @@ SPEC CHECKSUMS:
   PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
   Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
 
-PODFILE CHECKSUM: 02279a32788b932ec45224def15c30fb61c2d769
+PODFILE CHECKSUM: 074598c8c2a88ba5d90114e6c3c06469e0c101c0
 
 COCOAPODS: 1.10.0
