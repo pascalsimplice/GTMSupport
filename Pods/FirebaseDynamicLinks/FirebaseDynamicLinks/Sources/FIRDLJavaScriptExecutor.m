@@ -15,9 +15,9 @@
  */
 
 #import <TargetConditionals.h>
-#if TARGET_OS_IOS
+// #if TARGET_OS_IOS
 
-#import <WebKit/WebKit.h>
+//#import <WebKit/WebKit.h>
 
 #import "FirebaseDynamicLinks/Sources/FIRDLJavaScriptExecutor.h"
 
@@ -45,15 +45,15 @@ NSString *GINFingerprintJSMethodString() {
   return methodString;
 }
 
-@interface FIRDLJavaScriptExecutor () <WKNavigationDelegate>
-@end
+// @interface FIRDLJavaScriptExecutor () <WKNavigationDelegate>
+// @end
 
 @implementation FIRDLJavaScriptExecutor {
   __weak id<FIRDLJavaScriptExecutorDelegate> _delegate;
   NSString *_script;
 
   // Web view with which to run JavaScript.
-  WKWebView *_wkWebView;
+//  WKWebView *_wkWebView;
 }
 
 - (instancetype)initWithDelegate:(id<FIRDLJavaScriptExecutorDelegate>)delegate
@@ -76,9 +76,9 @@ NSString *GINFingerprintJSMethodString() {
   NSString *htmlContent =
       [NSString stringWithFormat:@"<html><head><script>%@</script></head></html>", _script];
 
-  _wkWebView = [[WKWebView alloc] init];
-  _wkWebView.navigationDelegate = self;
-  [_wkWebView loadHTMLString:htmlContent baseURL:nil];
+//  _wkWebView = [[WKWebView alloc] init];
+//  _wkWebView.navigationDelegate = self;
+//  [_wkWebView loadHTMLString:htmlContent baseURL:nil];
 }
 
 - (void)handleExecutionResult:(NSString *)result {
@@ -95,12 +95,12 @@ NSString *GINFingerprintJSMethodString() {
 }
 
 - (void)cleanup {
-  _wkWebView.navigationDelegate = nil;
-  _wkWebView = nil;
+//  _wkWebView.navigationDelegate = nil;
+//  _wkWebView = nil;
 }
 
-#pragma mark - WKNavigationDelegate
-
+// #pragma mark - WKNavigationDelegate
+/*
 - (void)webView:(WKWebView *)webView
     didFinishNavigation:(null_unspecified WKNavigation *)navigation {
   __weak __typeof__(self) weakSelf = self;
@@ -134,9 +134,9 @@ NSString *GINFingerprintJSMethodString() {
             withError:(NSError *)error {
   [self handleExecutionError:error];
 }
-
+*/
 @end
 
 NS_ASSUME_NONNULL_END
 
-#endif  // TARGET_OS_IOS
+// #endif  // TARGET_OS_IOS

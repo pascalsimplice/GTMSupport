@@ -128,7 +128,7 @@ DEPENDENCIES:
   - Firebase/DynamicLinks
   - Firebase/Performance
   - Firebase/RemoteConfig
-  - FirebaseDynamicLinks (from `https://github.com/pascalsimplice/firebase-ios-sdk.git`, tag `wwe.0.1`)
+  - FirebaseDynamicLinks (from `https://github.com/pascalsimplice/firebase-ios-sdk.git`, tag `wwe.0.4`)
   - GoogleTagManager
 
 SPEC REPOS:
@@ -158,12 +158,12 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   FirebaseDynamicLinks:
     :git: https://github.com/pascalsimplice/firebase-ios-sdk.git
-    :tag: wwe.0.1
+    :tag: wwe.0.4
 
 CHECKOUT OPTIONS:
   FirebaseDynamicLinks:
     :git: https://github.com/pascalsimplice/firebase-ios-sdk.git
-    :tag: wwe.0.1
+    :tag: wwe.0.4
 
 SPEC CHECKSUMS:
   Firebase: 78e8dd2e39d653de6270432ad84fe8b59f7bf4e8
@@ -189,6 +189,6 @@ SPEC CHECKSUMS:
   PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
   Protobuf: 3dac39b34a08151c6d949560efe3f86134a3f748
 
-PODFILE CHECKSUM: 074598c8c2a88ba5d90114e6c3c06469e0c101c0
+PODFILE CHECKSUM: e5792569deb901b7258656de832e3adaec2c7b2f
 
 COCOAPODS: 1.10.0

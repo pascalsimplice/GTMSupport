@@ -15,7 +15,7 @@
  */
 
 #import <TargetConditionals.h>
-#if TARGET_OS_IOS
+// #if TARGET_OS_IsOS
 
 #import "FirebaseDynamicLinks/Sources/FIRDLRetrievalProcessFactory.h"
 
@@ -58,4 +58,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 NS_ASSUME_NONNULL_END
 
-#endif  // TARGET_OS_IOS
+// #endif  // TARGET_OS_IOS

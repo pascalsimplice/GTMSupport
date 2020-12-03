@@ -15,7 +15,7 @@
  */
 
 #import <TargetConditionals.h>
-#if TARGET_OS_IOS
+// #if TARGET_OS_IOS
 
 #import "FirebaseDynamicLinks/Sources/Utilities/FDLUtilities.h"
 
@@ -299,4 +299,4 @@ void FIRDLAddToAllowListForCustomDomainsArray(NSArray *_Nonnull customDomains) {
 
 NS_ASSUME_NONNULL_END
 
-#endif  // TARGET_OS_IOS
+// #endif  // TARGET_OS_IOS

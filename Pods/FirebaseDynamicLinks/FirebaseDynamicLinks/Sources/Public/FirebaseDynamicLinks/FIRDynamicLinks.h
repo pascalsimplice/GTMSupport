@@ -17,7 +17,7 @@
 #import <Foundation/Foundation.h>
 
 #import <TargetConditionals.h>
-#if TARGET_OS_IOS
+// #if TARGET_OS_IOS
 
 #import "FIRDynamicLink.h"
 #import "FIRDynamicLinksCommon.h"
@@ -125,4 +125,4 @@ NS_SWIFT_NAME(DynamicLinks)
 
 NS_ASSUME_NONNULL_END
 
-#endif
+// #endif

@@ -15,7 +15,7 @@
  */
 
 #import <TargetConditionals.h>
-#if TARGET_OS_IOS
+// #if TARGET_OS_IOS
 
 #import "FirebaseDynamicLinks/Sources/FDLURLComponents/FIRDynamicLinkComponentsKeyProvider.h"
 
@@ -36,4 +36,4 @@
 
 @end
 
-#endif  // TARGET_OS_IOS
+// #endif  // TARGET_OS_IOS

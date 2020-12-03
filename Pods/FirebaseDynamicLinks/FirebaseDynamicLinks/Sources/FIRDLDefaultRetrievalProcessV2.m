@@ -15,7 +15,7 @@
  */
 
 #import <TargetConditionals.h>
-#if TARGET_OS_IOS
+// #if TARGET_OS_IOS
 
 #import "FirebaseDynamicLinks/Sources/FIRDLDefaultRetrievalProcessV2.h"
 
@@ -207,6 +207,7 @@ NS_ASSUME_NONNULL_BEGIN
   }
 
   NSString *pasteboardContents = @"";
+  #if TARGET_OS_IOS
   if (@available(iOS 10.0, *)) {
     if ([[UIPasteboard generalPasteboard] hasURLs]) {
       pasteboardContents = [UIPasteboard generalPasteboard].string;
@@ -214,6 +215,7 @@ NS_ASSUME_NONNULL_BEGIN
   } else {
     pasteboardContents = [UIPasteboard generalPasteboard].string;
   }
+  #endif  // TARGET_OS_IOS
   return pasteboardContents;
 }
 
@@ -233,27 +235,29 @@ NS_ASSUME_NONNULL_BEGIN
 }
 
 - (void)clearUsedUniqueMatchLinkToCheckFromClipboard {
+  #if TARGET_OS_IOS
   // See discussion in b/65304652
   // We will clear clipboard after we used the unique match link from the clipboard
   if (_clipboardContentAtMatchProcessStart.length > 0 &&
       [_clipboardContentAtMatchProcessStart isEqualToString:_clipboardContentAtMatchProcessStart]) {
     [UIPasteboard generalPasteboard].string = @"";
   }
+  #endif  // TARGET_OS_IOS
 }
 
 - (void)fetchLocaleFromWebView {
-  if (_jsExecutor) {
-    return;
-  }
-  NSString *jsString = @"window.generateFingerprint=function(){try{var "
-                       @"languageCode=navigator.languages?navigator.languages[0]:navigator."
-                       @"language;return languageCode;}catch(b){return"
-                        "}};";
-  _jsExecutor = [[FIRDLJavaScriptExecutor alloc] initWithDelegate:self script:jsString];
+  // if (_jsExecutor) {
+  //   return;
+  // }
+  // NSString *jsString = @"window.generateFingerprint=function(){try{var "
+  //                      @"languageCode=navigator.languages?navigator.languages[0]:navigator."
+  //                      @"language;return languageCode;}catch(b){return"
+  //                       "}};";
+  // _jsExecutor = [[FIRDLJavaScriptExecutor alloc] initWithDelegate:self script:jsString];
 }
 
 @end
 
 NS_ASSUME_NONNULL_END
 
-#endif  // TARGET_OS_IOS
+// #endif  // TARGET_OS_IOS

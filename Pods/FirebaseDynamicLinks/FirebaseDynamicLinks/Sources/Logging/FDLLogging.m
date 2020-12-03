@@ -15,7 +15,7 @@
  */
 
 #import <TargetConditionals.h>
-#if TARGET_OS_IOS
+// #if TARGET_OS_IOS
 
 #import "FirebaseDynamicLinks/Sources/Logging/FDLLogging.h"
 
@@ -70,4 +70,4 @@ void FDLLog(FDLLogLevel logLevel, FDLLogIdentifier identifer, NSString *message,
   va_end(args_ptr);
 }
 
-#endif  // TARGET_OS_IOS
+// #endif  // TARGET_OS_IOS

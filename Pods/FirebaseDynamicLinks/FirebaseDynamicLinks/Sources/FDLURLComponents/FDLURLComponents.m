@@ -15,7 +15,7 @@
  */
 
 #import <TargetConditionals.h>
-#if TARGET_OS_IOS
+// #if TARGET_OS_IOS
 
 #import <Foundation/Foundation.h>
 
@@ -697,4 +697,4 @@ static NSString *const kFDLOtherPlatformParametersFallbackURLKey = @"ofl";
 
 @end
 
-#endif  // TARGET_OS_IOS
+// #endif  // TARGET_OS_IOS
