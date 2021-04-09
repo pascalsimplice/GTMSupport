@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Firebase.root-CoreOnly-Crashlytics-RemoteConfig.xcscheme</key>
+		<key>Firebase.default-CoreOnly-Crashlytics-RemoteConfig.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -94,11 +94,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>GTMSessionFetcher.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>GoogleAnalytics.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -130,11 +125,6 @@
 			<false/>
 		</dict>
 		<key>GoogleTagManager.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>GoogleToolboxForMac.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

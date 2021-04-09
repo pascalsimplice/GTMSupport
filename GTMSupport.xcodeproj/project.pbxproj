@@ -8,20 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		9304EB45B68B2DEC5C0F3699 /* libPods-GTMSupport_tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8315B967EFCE38B2876AF /* libPods-GTMSupport_tvOS.a */; };
-		BBBF20F42BF4704650FDF7E5 /* libPods-GTMSupport_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F47B9F3C8159E14668D8FD6 /* libPods-GTMSupport_iOS.a */; };
 		C1A01E392541941C00E8C429 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A01E38254193F400E8C429 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1A01E3D254197E700E8C429 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A01E3C254197E700E8C429 /* TestView.swift */; };
 		C1B2496225403883008D1256 /* GTMSupport_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B2496025403883008D1256 /* GTMSupport_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1D7E44223CCC60200D3B91B /* GTMSupport_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D7E44023CCC60200D3B91B /* GTMSupport_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1D7E44723CCC82300D3B91B /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D7E44623CCC7D700D3B91B /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1D7E45923CCD4FE00D3B91B /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D7E45823CCD4FE00D3B91B /* TestView.swift */; };
+		CCD431F6F1D37FD27DA5BDB9 /* libPods-GTMSupport_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE548F771A2C1EEB9DB75DB8 /* libPods-GTMSupport_iOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B156011F56D450727D77E0C /* Pods-GTMSupport_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_iOS.release.xcconfig"; path = "Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		2F47B9F3C8159E14668D8FD6 /* libPods-GTMSupport_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTMSupport_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6106192C5860CD6AF2FE43CD /* Pods-GTMSupport_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_tvOS.release.xcconfig"; path = "Target Support Files/Pods-GTMSupport_tvOS/Pods-GTMSupport_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		63F8315B967EFCE38B2876AF /* libPods-GTMSupport_tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTMSupport_tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3562687E86FA046CD3890A /* Pods-GTMSupport_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_iOS.debug.xcconfig"; path = "Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C1A01E38254193F400E8C429 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
 		C1A01E3C254197E700E8C429 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		C1B2495E25403883008D1256 /* GTMSupport_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMSupport_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,8 +32,9 @@
 		C1D7E44123CCC60200D3B91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1D7E44623CCC7D700D3B91B /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
 		C1D7E45823CCD4FE00D3B91B /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		E32C94456F19DC9A3B8D5D2D /* Pods-GTMSupport_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_iOS.release.xcconfig"; path = "Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		E6CE3BFEEC5AE1C305803E7C /* Pods-GTMSupport_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GTMSupport_tvOS/Pods-GTMSupport_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		ECE055BAEFF6C0F4944FF0D9 /* Pods-GTMSupport_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_iOS.debug.xcconfig"; path = "Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FE548F771A2C1EEB9DB75DB8 /* libPods-GTMSupport_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTMSupport_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBBF20F42BF4704650FDF7E5 /* libPods-GTMSupport_iOS.a in Frameworks */,
+				CCD431F6F1D37FD27DA5BDB9 /* libPods-GTMSupport_iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +60,8 @@
 		146AC5D0021B22A09B8FE0AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2F47B9F3C8159E14668D8FD6 /* libPods-GTMSupport_iOS.a */,
 				63F8315B967EFCE38B2876AF /* libPods-GTMSupport_tvOS.a */,
+				FE548F771A2C1EEB9DB75DB8 /* libPods-GTMSupport_iOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -69,10 +69,10 @@
 		40FF204EAB76DAB3841A0D4E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ECE055BAEFF6C0F4944FF0D9 /* Pods-GTMSupport_iOS.debug.xcconfig */,
-				1B156011F56D450727D77E0C /* Pods-GTMSupport_iOS.release.xcconfig */,
 				E6CE3BFEEC5AE1C305803E7C /* Pods-GTMSupport_tvOS.debug.xcconfig */,
 				6106192C5860CD6AF2FE43CD /* Pods-GTMSupport_tvOS.release.xcconfig */,
+				8A3562687E86FA046CD3890A /* Pods-GTMSupport_iOS.debug.xcconfig */,
+				E32C94456F19DC9A3B8D5D2D /* Pods-GTMSupport_iOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -175,13 +175,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1D7E44523CCC60200D3B91B /* Build configuration list for PBXNativeTarget "GTMSupport_iOS" */;
 			buildPhases = (
-				C187C73F6993D56B729B2CCA /* [CP] Check Pods Manifest.lock */,
+				FA54C69E07A76E64CCBE6873 /* [CP] Check Pods Manifest.lock */,
 				C1D7E43A23CCC60200D3B91B /* Sources */,
 				C1D7E43B23CCC60200D3B91B /* Frameworks */,
 				C1D7E43923CCC60200D3B91B /* Headers */,
 				C1D7E43C23CCC60200D3B91B /* Resources */,
-				BD14A9D92FD79AA6D5BFEC05 /* [CP] Copy Pods Resources */,
 				C1C59D4223D0B63A00A8EB99 /* ShellScript */,
+				64A4D23EBEFBF59B142854C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,7 +270,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BD14A9D92FD79AA6D5BFEC05 /* [CP] Copy Pods Resources */ = {
+		64A4D23EBEFBF59B142854C1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,7 +287,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C187C73F6993D56B729B2CCA /* [CP] Check Pods Manifest.lock */ = {
+		C1C59D4223D0B63A00A8EB99 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules\"\ncp \"${BUILT_PRODUCTS_DIR}/lib${PRODUCT_NAME}.a\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\ncp \"${MODULEMAP_FILE}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules/module.modulemap\"\n# If there's a .swiftmodule, copy it into the framework's Modules folder\ncp -r \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}\".swiftmodule \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules/\" 2>/dev/null || :\n# If archiving, Headers copy is needed\ncp -r \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.framework/Headers\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" 2>/dev/null || :\ncp -r \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.framework/PrivateHeaders\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" 2>/dev/null || :\n";
+		};
+		FA54C69E07A76E64CCBE6873 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,23 +325,6 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
-		};
-		C1C59D4223D0B63A00A8EB99 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules\"\ncp \"${BUILT_PRODUCTS_DIR}/lib${PRODUCT_NAME}.a\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\ncp \"${MODULEMAP_FILE}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules/module.modulemap\"\n# If there's a .swiftmodule, copy it into the framework's Modules folder\ncp -r \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}\".swiftmodule \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Modules/\" 2>/dev/null || :\n# If archiving, Headers copy is needed\ncp -r \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.framework/Headers\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" 2>/dev/null || :\ncp -r \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.framework/PrivateHeaders\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/\" 2>/dev/null || :\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -531,7 +531,7 @@
 		};
 		C1D7E44323CCC60200D3B91B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECE055BAEFF6C0F4944FF0D9 /* Pods-GTMSupport_iOS.debug.xcconfig */;
+			baseConfigurationReference = 8A3562687E86FA046CD3890A /* Pods-GTMSupport_iOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -572,7 +572,7 @@
 		};
 		C1D7E44423CCC60200D3B91B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B156011F56D450727D77E0C /* Pods-GTMSupport_iOS.release.xcconfig */;
+			baseConfigurationReference = E32C94456F19DC9A3B8D5D2D /* Pods-GTMSupport_iOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

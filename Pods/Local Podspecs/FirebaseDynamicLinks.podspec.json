@@ -1,6 +1,6 @@
 {
   "name": "FirebaseDynamicLinks",
-  "version": "7.1.0",
+  "version": "7.10.0",
   "summary": "Firebase Dynamic Links",
   "description": "Firebase Dynamic Links are deep links that enhance user experience and increase engagement by retaining context post-install, across platforms.",
   "homepage": "https://firebase.google.com",
@@ -11,7 +11,7 @@
   "authors": "Google, Inc.",
   "source": {
     "git": "https://github.com/firebase/firebase-ios-sdk.git",
-    "tag": "CocoaPods-7.1.0"
+    "tag": "CocoaPods-7.10.0"
   },
   "social_media_url": "https://twitter.com/Firebase",
   "platforms": {
@@ -27,6 +27,7 @@
   ],
   "public_header_files": "FirebaseDynamicLinks/Sources/Public/FirebaseDynamicLinks/*.h",
   "frameworks": "QuartzCore",
+  "weak_frameworks": "WebKit",
   "dependencies": {
     "FirebaseCore": [
       "~> 7.0"
@@ -36,5 +37,33 @@
     "GCC_C_LANGUAGE_STANDARD": "c99",
     "GCC_PREPROCESSOR_DEFINITIONS": "FIRDynamicLinks3P GIN_SCION_LOGGING",
     "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}\""
-  }
+  },
+  "testspecs": [
+    {
+      "name": "unit",
+      "test_type": "unit",
+      "scheme": {
+        "code_coverage": true
+      },
+      "source_files": [
+        "FirebaseDynamicLinks/Tests/Unit/*.[mh]"
+      ],
+      "requires_app_host": true,
+      "resources": [
+        "FirebaseDynamicLinks/Tests/Unit/GoogleService-Info.plist",
+        "FirebaseDynamicLinks/Tests/Unit/DL-Info.plist"
+      ],
+      "dependencies": {
+        "OCMock": [
+
+        ],
+        "GoogleUtilities/MethodSwizzler": [
+          "~> 7.0"
+        ],
+        "GoogleUtilities/SwizzlerTestHelpers": [
+          "~> 7.0"
+        ]
+      }
+    }
+  ]
 }
