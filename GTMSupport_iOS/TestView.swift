@@ -8,7 +8,6 @@
 
 import Foundation
 import GoogleTagManager
-import FirebaseAnalytics
 
 class TestView: UIView {
     
