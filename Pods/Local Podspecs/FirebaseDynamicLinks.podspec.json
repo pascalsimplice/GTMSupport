@@ -27,7 +27,6 @@
   ],
   "public_header_files": "FirebaseDynamicLinks/Sources/Public/FirebaseDynamicLinks/*.h",
   "frameworks": "QuartzCore",
-  "weak_frameworks": "WebKit",
   "dependencies": {
     "FirebaseCore": [
       "~> 7.0"

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9304EB45B68B2DEC5C0F3699 /* libPods-GTMSupport_tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F8315B967EFCE38B2876AF /* libPods-GTMSupport_tvOS.a */; };
+		A189F815772471D0983FEDD1 /* libPods-GTMSupport_tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A63193CCC3653C9AF90ED2C4 /* libPods-GTMSupport_tvOS.a */; };
 		C1A01E392541941C00E8C429 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A01E38254193F400E8C429 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1A01E3D254197E700E8C429 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A01E3C254197E700E8C429 /* TestView.swift */; };
 		C1B2496225403883008D1256 /* GTMSupport_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B2496025403883008D1256 /* GTMSupport_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -18,9 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6106192C5860CD6AF2FE43CD /* Pods-GTMSupport_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_tvOS.release.xcconfig"; path = "Target Support Files/Pods-GTMSupport_tvOS/Pods-GTMSupport_tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		63F8315B967EFCE38B2876AF /* libPods-GTMSupport_tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTMSupport_tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0607472B47AF752335561A6C /* Pods-GTMSupport_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_tvOS.release.xcconfig"; path = "Target Support Files/Pods-GTMSupport_tvOS/Pods-GTMSupport_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		8A3562687E86FA046CD3890A /* Pods-GTMSupport_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_iOS.debug.xcconfig"; path = "Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A63193CCC3653C9AF90ED2C4 /* libPods-GTMSupport_tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTMSupport_tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A01E38254193F400E8C429 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
 		C1A01E3C254197E700E8C429 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		C1B2495E25403883008D1256 /* GTMSupport_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMSupport_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,8 +32,8 @@
 		C1D7E44123CCC60200D3B91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1D7E44623CCC7D700D3B91B /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
 		C1D7E45823CCD4FE00D3B91B /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		D04F8CB193803CDF601D84B4 /* Pods-GTMSupport_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GTMSupport_tvOS/Pods-GTMSupport_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		E32C94456F19DC9A3B8D5D2D /* Pods-GTMSupport_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_iOS.release.xcconfig"; path = "Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		E6CE3BFEEC5AE1C305803E7C /* Pods-GTMSupport_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GTMSupport_tvOS/Pods-GTMSupport_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FE548F771A2C1EEB9DB75DB8 /* libPods-GTMSupport_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTMSupport_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9304EB45B68B2DEC5C0F3699 /* libPods-GTMSupport_tvOS.a in Frameworks */,
+				A189F815772471D0983FEDD1 /* libPods-GTMSupport_tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +60,8 @@
 		146AC5D0021B22A09B8FE0AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				63F8315B967EFCE38B2876AF /* libPods-GTMSupport_tvOS.a */,
 				FE548F771A2C1EEB9DB75DB8 /* libPods-GTMSupport_iOS.a */,
+				A63193CCC3653C9AF90ED2C4 /* libPods-GTMSupport_tvOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -69,10 +69,10 @@
 		40FF204EAB76DAB3841A0D4E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E6CE3BFEEC5AE1C305803E7C /* Pods-GTMSupport_tvOS.debug.xcconfig */,
-				6106192C5860CD6AF2FE43CD /* Pods-GTMSupport_tvOS.release.xcconfig */,
 				8A3562687E86FA046CD3890A /* Pods-GTMSupport_iOS.debug.xcconfig */,
 				E32C94456F19DC9A3B8D5D2D /* Pods-GTMSupport_iOS.release.xcconfig */,
+				D04F8CB193803CDF601D84B4 /* Pods-GTMSupport_tvOS.debug.xcconfig */,
+				0607472B47AF752335561A6C /* Pods-GTMSupport_tvOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -156,7 +156,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1B2496525403883008D1256 /* Build configuration list for PBXNativeTarget "GTMSupport_tvOS" */;
 			buildPhases = (
-				329849783F7183EED60385FA /* [CP] Check Pods Manifest.lock */,
+				0EA1478BB25F7F2060964C74 /* [CP] Check Pods Manifest.lock */,
 				C1B2495925403883008D1256 /* Headers */,
 				C1B2495A25403883008D1256 /* Sources */,
 				C1B2495B25403883008D1256 /* Frameworks */,
@@ -248,7 +248,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		329849783F7183EED60385FA /* [CP] Check Pods Manifest.lock */ = {
+		0EA1478BB25F7F2060964C74 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,7 +350,7 @@
 /* Begin XCBuildConfiguration section */
 		C1B2496325403883008D1256 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6CE3BFEEC5AE1C305803E7C /* Pods-GTMSupport_tvOS.debug.xcconfig */;
+			baseConfigurationReference = D04F8CB193803CDF601D84B4 /* Pods-GTMSupport_tvOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
@@ -383,7 +383,7 @@
 		};
 		C1B2496425403883008D1256 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6106192C5860CD6AF2FE43CD /* Pods-GTMSupport_tvOS.release.xcconfig */;
+			baseConfigurationReference = 0607472B47AF752335561A6C /* Pods-GTMSupport_tvOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
