@@ -7,4 +7,5 @@ target 'GTMSupport_iOS' do
   pod 'Firebase/DynamicLinks'
   pod 'Firebase/Analytics'
   pod 'GoogleTagManager'
+  pod 'google-cast-sdk'
 end
