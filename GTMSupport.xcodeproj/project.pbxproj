@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A189F815772471D0983FEDD1 /* libPods-GTMSupport_tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A63193CCC3653C9AF90ED2C4 /* libPods-GTMSupport_tvOS.a */; };
 		C1A01E392541941C00E8C429 /* PublicHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A01E38254193F400E8C429 /* PublicHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1A01E3D254197E700E8C429 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A01E3C254197E700E8C429 /* TestView.swift */; };
 		C1B2496225403883008D1256 /* GTMSupport_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B2496025403883008D1256 /* GTMSupport_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -18,9 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0607472B47AF752335561A6C /* Pods-GTMSupport_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_tvOS.release.xcconfig"; path = "Target Support Files/Pods-GTMSupport_tvOS/Pods-GTMSupport_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		8A3562687E86FA046CD3890A /* Pods-GTMSupport_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_iOS.debug.xcconfig"; path = "Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		A63193CCC3653C9AF90ED2C4 /* libPods-GTMSupport_tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTMSupport_tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1A01E38254193F400E8C429 /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
 		C1A01E3C254197E700E8C429 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		C1B2495E25403883008D1256 /* GTMSupport_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMSupport_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,7 +29,6 @@
 		C1D7E44123CCC60200D3B91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1D7E44623CCC7D700D3B91B /* PublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicHeader.h; sourceTree = "<group>"; };
 		C1D7E45823CCD4FE00D3B91B /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
-		D04F8CB193803CDF601D84B4 /* Pods-GTMSupport_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GTMSupport_tvOS/Pods-GTMSupport_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		E32C94456F19DC9A3B8D5D2D /* Pods-GTMSupport_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMSupport_iOS.release.xcconfig"; path = "Target Support Files/Pods-GTMSupport_iOS/Pods-GTMSupport_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		FE548F771A2C1EEB9DB75DB8 /* libPods-GTMSupport_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTMSupport_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -42,7 +38,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A189F815772471D0983FEDD1 /* libPods-GTMSupport_tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +56,6 @@
 			isa = PBXGroup;
 			children = (
 				FE548F771A2C1EEB9DB75DB8 /* libPods-GTMSupport_iOS.a */,
-				A63193CCC3653C9AF90ED2C4 /* libPods-GTMSupport_tvOS.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -71,8 +65,6 @@
 			children = (
 				8A3562687E86FA046CD3890A /* Pods-GTMSupport_iOS.debug.xcconfig */,
 				E32C94456F19DC9A3B8D5D2D /* Pods-GTMSupport_iOS.release.xcconfig */,
-				D04F8CB193803CDF601D84B4 /* Pods-GTMSupport_tvOS.debug.xcconfig */,
-				0607472B47AF752335561A6C /* Pods-GTMSupport_tvOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -156,7 +148,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1B2496525403883008D1256 /* Build configuration list for PBXNativeTarget "GTMSupport_tvOS" */;
 			buildPhases = (
-				0EA1478BB25F7F2060964C74 /* [CP] Check Pods Manifest.lock */,
 				C1B2495925403883008D1256 /* Headers */,
 				C1B2495A25403883008D1256 /* Sources */,
 				C1B2495B25403883008D1256 /* Frameworks */,
@@ -181,7 +172,7 @@
 				C1D7E43923CCC60200D3B91B /* Headers */,
 				C1D7E43C23CCC60200D3B91B /* Resources */,
 				C1C59D4223D0B63A00A8EB99 /* ShellScript */,
-				64A4D23EBEFBF59B142854C1 /* [CP] Copy Pods Resources */,
+				BEA6B5E2AB70945E3B8F4C64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,7 +190,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1310;
 				ORGANIZATIONNAME = "Pascal Simplice";
 				TargetAttributes = {
 					C1B2495D25403883008D1256 = {
@@ -248,29 +239,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0EA1478BB25F7F2060964C74 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GTMSupport_tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		64A4D23EBEFBF59B142854C1 /* [CP] Copy Pods Resources */ = {
+		BEA6B5E2AB70945E3B8F4C64 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,7 +319,6 @@
 /* Begin XCBuildConfiguration section */
 		C1B2496325403883008D1256 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D04F8CB193803CDF601D84B4 /* Pods-GTMSupport_tvOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
@@ -383,7 +351,6 @@
 		};
 		C1B2496425403883008D1256 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0607472B47AF752335561A6C /* Pods-GTMSupport_tvOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
@@ -439,6 +406,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -465,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -501,6 +469,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -521,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -544,6 +513,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
@@ -555,7 +525,7 @@
 				);
 				INFOPLIST_FILE = GTMSupport_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -585,6 +555,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
@@ -596,7 +567,7 @@
 				);
 				INFOPLIST_FILE = GTMSupport_iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
