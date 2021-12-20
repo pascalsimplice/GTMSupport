@@ -504,6 +504,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A3562687E86FA046CD3890A /* Pods-GTMSupport_iOS.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+				);
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +550,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E32C94456F19DC9A3B8D5D2D /* Pods-GTMSupport_iOS.release.xcconfig */;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+				);
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
